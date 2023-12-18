@@ -5,27 +5,27 @@ body {
   padding: 0;
 }
 
-.outer-container{
+.outer-container {
   width: 100%;
 }
 h1 {
-  color: #FF6D04;
+  color: #ff6d04;
   font-size: 4rem;
   font-weight: 300;
   letter-spacing: 10px;
   line-height: 1rem;
   text-align: center;
-} 
+}
 
 h2 {
-  color: #665C3D;
-  font-size: .9rem;
+  color: #665c3d;
+  font-size: 0.9rem;
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 40px;
   text-transform: uppercase;
   text-align: center;
-} 
+}
 
 header {
   text-align: center;
@@ -46,10 +46,10 @@ header {
 }
 
 textarea {
-  border-color: #E6B000;
+  border-color: #e6b000;
   border-radius: 4px;
   border-style: solid;
-  border-width:1px;
+  border-width: 1px;
   display: block;
   font-family: "Helvetica-Light", "Helvetica", "Arial", Arial, sans-serif;
   font-size: 14px;
@@ -59,9 +59,9 @@ textarea {
 }
 
 .formHolder {
-  background-color: #665C3D;
+  background-color: #665c3d;
   border-radius: 4px 4px 0px 0px;
-  color: #FF6D04;
+  color: #ff6d04;
   font-family: "verdana";
   font-size: 0.75rem;
   margin: 40px auto 0 auto;
@@ -89,4 +89,9 @@ input {
 }
 
 #weight {
+}
+@media only screen and (max-width: 480px) {
+  .formHolder {
+    height: 70px;
+  }
 }
